@@ -115,7 +115,7 @@ function App() {
         <br />
         setItems([...items, newItem]); // Add
         <br />
-        setItems(items.filter((_, i) => i !== index)); // Remove
+        setItems(items.filter((_, i) ={">"} i !== index)); // Remove
       </div>
       <div>
         <button onClick={handleAddItem}>Add Item</button>
